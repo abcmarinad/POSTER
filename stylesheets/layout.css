@@ -1,0 +1,913 @@
+body { 
+    width: 100%;
+    display: block;
+    position: relative;
+    font-family: "Inter_18pt-Bold";
+    overflow-x: hidden;
+}
+
+.firstscreen {
+    width: 100%;
+    height: 33vw;
+    color: #3A3A3A;
+    background-color: #D9D9D9;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.bukvi {
+    top: 3.3vw;
+    left: 1vw;
+    animation: scroll 5s linear infinite;
+    position: absolute;
+    z-index: 4;
+
+}
+
+    .bukvi:hover {
+        animation-play-state: paused;
+    }
+
+    @keyframes scroll {
+        0% {left: 100%;}
+        100%{left: -100%;}
+        }
+        
+        .r1, .u, .s, .t, .r2, .o, .i{
+            top: 1vw;
+            width: 13vw;
+            height: 18vw;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: cover;   
+            transition: tranform 0.3s ease-in;
+        }
+        
+        .x {
+            top: 1vw;
+            width: 12vw;
+            height: 17vw;
+            left: 1vw;
+            background-image: url(../images/x.svg);
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: cover;   
+            transition: tranform 0.3s ease-in;
+        }
+        
+        .x:hover {
+            transform: scale(1.1);
+        }
+        
+        .r1:hover {
+            transform: scale(1.1);
+        }
+        
+        .u:hover {
+            transform: scale(1.1);
+        }
+        
+        .s:hover {
+            transform: scale(1.1);
+        }
+        
+        
+        .t:hover {
+            transform: scale(1.1);
+        }
+        
+        .r2:hover {
+            transform: scale(1.1);
+        }
+        
+        .o:hover {
+            transform: scale(1.1);
+        }
+        
+        .i:hover {
+            transform: scale(1.1);
+        }
+        
+        
+        .r1 {
+            width: 9vw;
+            height: 17vw;
+            left: 14vw;
+            background-image: url(../images/r.svg);
+        }
+        
+        .u {
+            width: 15vw;
+            height: 17vw;
+            left: 24vw;
+            background-image: url(../images/u.svg);
+        }
+        
+        .s {
+            width: 8vw;
+            height: 17vw;
+            left: 40vw;
+            background-image: url(../images/s.svg);
+        }
+        
+        .t {
+            width: 12vw;
+            height: 17vw;
+            left: 49vw;
+            background-image: url(../images/t.svg);
+        }
+        
+        
+        .r2 {
+            width: 9vw;
+            height: 17vw;
+            left: 60.9vw;
+            background-image: url(../images/r.svg);
+        }
+        .o {
+            width: 9vw;
+            height: 17vw;
+            left: 71.1vw;
+            background-image: url(../images/o.svg);
+        }
+        .i {
+            top: -1.6vw;
+            width: 12vw;
+            height: 19.7vw;
+            left: 81.3vw;
+            background-image: url(../images/i.svg);
+        }
+
+h1{
+    font-size: 4vw;
+    font-family: "Inter_18pt-Bold";
+    margin: 5.3vw 0vw 0vw 21.3vw;
+}
+
+h2{
+    color: #3A3A3A;
+    font-size: 2vw;
+    padding: 20px 30px 0px 30px;
+    font-family: "Inter_18pt-Bold";
+
+}
+h3 {
+    color: white;
+    font-size: 1.5vw;
+    margin: 2vw;
+    font-family: "Inter_18pt-Regular";
+}
+
+.p2 {
+    width: 100%;
+    height: 10vw;
+    top: 23vw;
+    background-color: #8B8B8B;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+    font-family: "Inter_18pt-Regular";
+    position: relative;
+}
+.second_screen {
+    width: 100%;
+    height: 85vw;
+    background-color: #FF59E1;
+    display: flex;}
+
+/* .left_2 {
+    width: 50vw;
+    height: 87vw;
+}
+
+.top_container {
+    width: 50vw;
+    height: 25vw;
+    display: flex;
+}
+
+.left_top {
+    width: 13vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column
+} */
+
+h2 {
+    color: #3A3A3A;
+    font-size: 2vw;
+    font-family: "Inter_18pt-Bold";
+    margin: 1vw 0 0 1vw;
+}
+
+
+.garantia_kachestva {
+    width: 13vw;
+    height: 10vw;
+    margin-left: -3vw;
+    margin-top: -3vw;
+}
+
+.zadnik {
+    margin-top: -87.8vw;
+    background-image: url(../images/back.svg);
+    width: 50vw;
+    height: 88vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hru {
+    width: 40.4vw;
+    height: 47.4vw;
+    top: 51vw;
+    left: 4.5vw;
+    background-image: url(../images/hruu.svg);
+    transition: transform 0.15s linear;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hru:hover {
+    animation: bounce-scale 1s;
+}
+
+.sneg1, .sneg2, .sneg3, .sneg4, .sneg6, .sneg7, .sneg9, .sneg13, .sneg14, .sneg15, .sneg16, .sneg17, .sneg18, .sneg19, .sneg20{
+    width: 2vw;
+    height: 1.5vw;
+    position: relative;
+    font-family: "Inter_18pt-Regular";
+    font-size: 1.4vw;
+    background-color: white;
+    text-align: center;
+    animation: snegopad 6s linear infinite;
+    z-index: 2;
+}
+
+@keyframes snegopad{
+    0%{opacity: 0%; rotate: 3deg; top: 0vw;}
+    50%{opacity: 100%; rotate: 180deg; top: 50vw;}
+    100%{opacity: 100%; rotate: 270deg; top: 132vw;}
+}
+
+.snegopad{
+    position: absolute;
+    top: -40vw;
+}
+
+.sneg1{
+    left: 5vw;
+}
+
+.sneg2{
+    left: 10vw;
+    animation-delay: 1s;
+}
+
+.sneg3{
+    left: 15vw;
+    animation-delay: 3s;
+}
+
+.sneg4{
+    left: 20vw;
+    animation-delay: 5s;
+}
+
+.sneg5{
+    width: 4vw;
+    height: 1.5vw;
+    top: 0%;
+    position: relative;
+    font-family: "Inter_18pt-Regular";
+    font-size: 1.4vw;
+    background-color: white;
+    text-align: center;
+    animation: snegopad 6s linear infinite;
+    left: 25vw;
+    animation-delay: 3s;
+}
+
+.sneg6{
+    left: 32vw;
+    animation-delay: 1s;
+}
+
+.sneg7{
+    left: 2vw;
+    animation-delay: 2s;
+}
+
+.sneg8{
+    width: 4vw;
+    height: 1.5vw;
+    top: 0%;
+    position: relative;
+    font-family: "Inter_18pt-Regular";
+    font-size: 1.4vw;
+    background-color: white;
+    text-align: center;
+    animation: snegopad 6s linear infinite;
+    left: 40vw;
+    animation-delay: 7s;
+}
+
+.sneg10{
+    width: 4vw;
+    height: 1.5vw;
+    top: 0%;
+    position: relative;
+    font-family: "Inter_18pt-Regular";
+    font-size: 1.4vw;
+    background-color: white;
+    text-align: center;
+    animation: snegopad 6s linear infinite;
+    left: 40vw;
+    animation-delay: 2s;
+}
+
+.sneg11{
+    width: 4vw;
+    height: 1.5vw;
+    top: 0%;
+    position: relative;
+    font-family: "Inter_18pt-Regular";
+    font-size: 1.4vw;
+    background-color: white;
+    text-align: center;
+    animation: snegopad 6s linear infinite;
+    left: 2vw;
+    animation-delay: 3s;
+}
+
+.sneg12{
+    width: 3vw;
+    height: 1.5vw;
+    top: 0%;
+    position: relative;
+    font-family: "Inter_18pt-Regular";
+    font-size: 1.4vw;
+    background-color: white;
+    text-align: center;
+    animation: snegopad 6s linear infinite;
+    left: 18vw;
+    animation-delay: 1s;
+}
+
+.sneg13{
+    left: 25vw;
+    animation-delay: 6s;
+}
+
+.sneg14{
+    left: 20vw;
+    animation-delay: 2s;
+}
+
+.sneg15{
+    left: 26vw;
+}
+
+.sneg16{
+    left: 8vw;
+    animation-delay: 5s;
+}
+
+.sneg17{
+    left: 22vw;
+    animation-delay: 5s;
+}
+
+.sneg18{
+    left: 28vw;
+    animation-delay: 4s;
+}
+
+.sneg19{
+    left: 12vw;
+    animation-delay: 1s;
+}
+
+.sneg20{
+    left: 17vw;
+    animation-delay: 7s;
+}
+
+
+@keyframes bounce-scale {
+    0%   { transform: scale(1) }
+    40%  { transform: scale(1.2); }    
+    60%  { transform: scale(1); }      
+    80%  { transform: scale(1.2); }   
+    100%  { transform: scale(1); }      
+}
+
+
+.str {
+    width: 6vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2vw 0 0 0.6vw;
+    font-family: "Inter_18pt-Regular";
+}
+
+
+h4 {
+    color: white;
+    font-size: 1.5vw;
+    padding: 1vw 1vw 0vw;
+    font-family: "Inter_18pt-Regular"; 
+}
+
+
+
+h5 {
+    color: #585858;
+    font-size: 1.7vw;
+    margin: -9px 0 0 2vw;
+    font-family: "Inter_18pt-Regular";
+}
+
+ 
+
+.right_2 {
+    width: 49vw;
+    height: 85vw;
+    background-color: #D9D9D9;
+    margin: -86vw 0vw 0vw 50vw;
+}
+
+.moving_4 {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.palki{
+    width: 25vw;
+    height: 16vw;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    animation: another 5s linear infinite;
+    /* animation-delay: 3s; */
+}
+
+@keyframes another {
+    0%{top: 0%; left: 0%; }
+    25%{top: 0%; left: 50%;}
+    50%{top: 30%; left: 50%;}
+    75%{top: 30%; left: 0%}
+    100%{top: 0%; left: 0%; }
+}
+
+
+.shtrih1 {
+    width: 4vw;
+    height: 16.1vw;
+    background-color: #3A3A3A;
+    animation: colorable 1s infinite forwards;
+}
+
+@keyframes colorable {
+    0%{ background: #585858; }
+    50%{ background: #000000;}
+    100%{background: #585858;}
+}
+
+.c1{
+    animation-delay: 0s;
+  }
+
+.c2{
+  animation-delay: 0.1s;
+}
+
+.c3{
+    animation-delay: 0.2s;
+}
+
+.c4{
+  animation-delay: 0.3s;}
+
+.c5{
+    animation-delay: 0.4s;
+  }
+
+.polukrugi {
+    position: absolute;
+    width: 25vw;
+    height: 16vw;
+    left: 24.5vw;
+    display: flex;
+    flex-direction: row;;
+    animation: gogo 5s linear infinite;
+    /* animation-delay: -3s; */
+}
+
+@keyframes gogo{
+    0%{top: 0%; left: 50%; }
+    25%{top: 30%; left: 50%;}
+    50%{top: 30%; left: 0%;}
+    75%{top: 0%; left: 0%}
+    100%{top: 0%; left: 50%; }
+}
+
+.polkrug1, .polkrug2, .polkrug3 {
+    width: 8vw;
+    height: 16.09vw;
+    background-image: url(../images/polukrug.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dom {
+    position: absolute;
+    width: 25vw;
+    height: 16vw;
+    top: 16.1vw;
+    left: -0.1vw;
+    background-image: url(../images/dom.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: idet 5s linear infinite;
+}
+
+@keyframes idet{
+    0%{top: 30%; left: 0%; }
+    25%{top: 0%; left: 0%;}
+    50%{top: 0%; left: 50%;}
+    75%{top: 30%; left: 50%}
+    100%{top: 30%; left: 0%; }
+}
+
+.palkisi {
+    position: absolute;
+    width: 25vw;
+    height: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 16vw;
+    left: 25vw;
+    animation: begut 5s linear infinite;
+}
+
+
+@keyframes begut{
+    0%{top: 30%; left: 50%; }
+    25%{top: 30%; left: 0%;}
+    50%{top: 0%; left: 0%;}
+    75%{top: 0%; left: 50%}
+    100%{top: 30%; left: 50%; }
+}
+
+.shtrih2{
+    width: 24.5vw;
+    height: 3.4vw;
+    background-color: #3A3A3A;
+    animation: colorchange 1s infinite forwards;
+}
+
+@keyframes colorchange {
+    0%{ background: #585858; }
+    50%{ background: #000000;}
+    100%{background: #585858;}
+}
+
+.ch1{
+    animation-delay: 0s;
+}
+
+.ch2{
+    animation-delay: 0.1s;
+}
+
+.ch3{
+    animation-delay: 0.3s;
+}
+
+.ch4{
+    animation-delay: 0.4s;
+}
+
+.whitep {
+    width: 100%;
+    height: 5%;
+    margin-top: -19vw;
+    background-color: white;
+    animation: scaling 2s infinite forwards;
+}
+    @keyframes scaling{
+    0%{width: 0%}
+    50%{width: 50%;}
+    100%{width: 100%}
+}
+ 
+.postroika {
+    width: 49vw;
+    height: 25vw;
+    background-image: url(../images/zdanie.svg);
+    background-repeat: no-repeat;
+    margin-left: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whitepp_cont {
+    margin-top: -0.5vw;
+    width: 100%;
+    height: 5%;
+    background-color: #ffff;
+}
+
+.whitepp {
+    width: 100%;
+    height: 100%;
+    background-color: #585858;
+    animation: belayapalka 2s infinite forwards;
+}
+
+@keyframes belayapalka{
+    0%{width: 0%}
+    50%{width: 50%;}
+    100%{width: 100%}
+}
+
+.volna {
+    margin-top: 0.2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 9vw;
+    background-color: #D9D9D9;
+    transform: rotate(180deg);
+}
+
+.figura1, .figura2{
+    width: 17vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.figura1{
+    background-image: url(../images/fig1.svg);
+    animation: up 1s linear infinite;
+    transform: rotate(180deg);
+}
+
+@keyframes up{
+    0%{height: 9vw;}
+    50%{height: 7vw}
+    100%{height:9vw}
+}
+
+.figura2 {
+    background-image: url(../images/fig2.svg);
+    left: 17vw;
+    transform: rotate(180deg);
+    animation: down 1s linear infinite;
+}
+
+@keyframes down{
+    0%{height: 7vw;}
+    50%{height: 9vw;}
+    100%{height: 7vw;}
+}
+
+
+.figura3 {
+    width: 16vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/fig1.svg);
+    margin-left: 0vw;
+    transform: rotate(180deg);
+    animation: up 1s linear infinite;
+}
+
+.treugolniki {
+    width: 50vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.treug1, .treug2, .treug3 {
+    position: absolute;
+    width: 13.5vw;
+    height: 12.2vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/treug.svg);
+    transform-origin: center left;
+    margin: 0 0 0 50vw;
+}
+
+.treug1{
+    animation: chachange 2s ease-in-out  infinite 1s;
+}
+
+@keyframes chachange{
+    0%{transform: scale(1, 1) ;  left: 0vw ;}
+    50%{transform: scale(1.7, 1); left: 0vw ;}
+    100%{transform: scale(1, 1);  left: 0vw ;}
+}
+
+.treug2{
+    animation: izmenenie 2s ease-in-out  infinite 1s;
+}
+
+@keyframes izmenenie{
+    0%{transform: scale(1, 1) ;  left: 6vw;}
+    50%{transform: scale(1.4, 1); left: 19vw ;}
+    100%{transform: scale(1, 1);  left: 6vw ;}
+}
+
+
+.treug3{
+    animation: menshe 2s ease-in-out  infinite 1s;
+}
+
+@keyframes menshe{
+    0% {transform: scale(1, 1); left: 13vw;}
+    50% {transform: scale(1.2, 1); left: 32vw;}
+    100% { transform: scale(1, 1); left: 13vw;}
+}
+
+.fourthscreen {
+    display: flex;
+}
+
+.dorogi {
+    position: relative;
+    background-color: white;
+    top: 1vw;
+    width: 50%;
+    height: 29.3vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.kirpichi1 {
+    width: 42vw;
+    height: 3.2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    animation: vpravo 3s infinite linear;
+}
+
+@keyframes vpravo{
+    0% {transform: translate(0, 0);}
+    100% {transform: translate(100%, 0);}
+}
+
+.kirpichi2 {
+    width: 42vw;
+    height: 3.2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: -2vw;
+    animation: vlevo 3s infinite linear;
+}
+
+@keyframes vlevo{
+    0% {transform: translate(0, 0);}
+    100% {transform: translate(-100%, 0);}
+}
+
+.kirp {
+    width: 6.6vw;
+    height: 2.8vw;
+    background-color: #3A3A3A;
+}
+
+.kirpmal {
+    width: 1.6vw;
+    height: 2.8vw;
+    background-color: #3A3A3A;
+}
+
+.kirpvilet1{
+    position: absolute;
+    width: 6.6vw;
+    height: 2.8vw;
+    background-color: #3A3A3A;
+    top: 0vw;
+}
+
+.kirpvilet2{
+    position: absolute;
+    width: 6.6vw;
+    height: 2.8vw;
+    background-color: #3A3A3A;
+    top: 3vw;
+    left: 10vw;
+}
+
+.fifthscreen{
+    height: 0vw;
+}
+
+
+.bighru {
+    top: 0.8vw;
+    width: 57.2vw;
+    height: 29.5vw;
+    position: relative;
+    background-color: #D9D9D9;
+}
+
+
+.let1, .let2, .let3{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 3.3vw;
+    animation: grey-to-pink 0.5s linear infinite;
+}
+
+@keyframes grey-to-pink{
+    0%{transform: scale(0.9, 0.9); background-color: #585858;}
+    50%{transform: scale(1, 1); background-color: #FF59E1;}
+    100%{transform: scale(0.9, 0.9); background-color: #585858;}
+}
+
+
+.let1 {
+    width: 16vw;
+    height: 22vw;
+    left: 5.2vw;
+    mask-image: url(../images/x.svg);
+    mask-size: 13vw 22vw;
+    mask-repeat: no-repeat;
+    animation-delay: 1s;
+}
+.let2 {
+    width: 12.8vw;
+    height: 22vw;
+    left: 19.8vw;
+    top: 3.8vw;
+    mask-image: url(../images/r.svg);
+    mask-size: 10vw 21vw;
+    mask-repeat: no-repeat;
+    animation-delay: 2s;
+}
+
+.let3 {
+    width: 20vw;
+    height: 22vw;
+    left: 31.2vw;
+    mask-image: url(../images/u.svg);
+    mask-size: 17vw 22vw;
+    mask-repeat: no-repeat;
+    animation-delay: 3s;
+}
+.podval{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 4vw;
+    background-color: white;
+}
+
+.roza {
+    width: 74%;
+    height: 6vw;
+    background-color: #FF59E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bela{
+    width: 26%;
+    height: 4vw;
+}
+
+.belatext {
+    background-color: white;
+    width: 22vw;
+    color: #3A3A3A;
+    font-size: 1.3vw;
+    font-family: "Inter_18pt-Regular";
+    text-align: center;
+    padding: 3vw 2vw 0vw;
+}
